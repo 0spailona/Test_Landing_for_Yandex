@@ -1,0 +1,22 @@
+{
+  "name": "test_landing_for_yandex",
+  "version": "1.0.0",
+  "description": "test landing for yandex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/0spailona/Test_Landing_for_Yandex.git"
+  },
+  "keywords": [
+    "landing"
+  ],
+  "author": "0spailona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0spailona/Test_Landing_for_Yandex/issues"
+  },
+  "homepage": "https://github.com/0spailona/Test_Landing_for_Yandex#readme"
+}

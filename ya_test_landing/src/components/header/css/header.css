@@ -1,0 +1,116 @@
+.header {
+    height: 700px;
+    width: 100%;
+    background-image: url("../../../../public/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container {
+    max-width: 1627px;
+    height: 100%;
+    border: 1px solid cyan;
+    margin: auto;
+    position: relative;
+}
+
+.header-img {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../../public/1920-2.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.header-logo-and-content{
+    width: 1222px;
+    margin:auto;
+}
+.header-logo {
+    width: 245px;
+    height: 36px;
+    position: absolute;
+    top: 26px;
+}
+
+.header-content {
+    position: absolute;
+    top: 62px;
+    width: 542px;
+    height: 444px;
+}
+
+.header-title {
+    margin-top: 62px;
+}
+
+.header-text {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #313131;
+    text-align: center;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1366px) {
+    .header-img {
+        background-image: url("../../../../public/1366.png");
+        background-position: left;
+    }
+    .header-logo-and-content{
+        max-width: 1200px;
+        min-width: 690px;
+        padding: 0 72px 0 72px;
+        margin: 0;
+    }
+}
+@media(max-width: 768px) {
+    .header {
+        height: 774px;
+        width: 100%;
+        min-width: 375px;
+        background-image: url("../../../../public/header-background-375.png");
+        background-repeat: repeat;
+    }
+
+    .header-img {
+        background-image: url("../../../../public/375.png");
+        background-position: top;
+    }
+    .header-logo-and-content{
+        max-width: 375px;
+        min-width: 375px;
+        padding: 0 20px 0 20px;
+        margin: auto;
+        border: 1px solid brown;
+    }
+    .header-logo {
+        width: 213px;
+        height: 32px;
+        top: 18px;
+    }
+    .header-content {
+        width: 335px;
+        height: 393px;
+        top: 50px;
+    }
+    .header-title {
+        margin-top: 40px;
+    }
+    .header-text{
+        text-align: left;
+    }
+    .header-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 108px;
+    }
+
+}
+
+

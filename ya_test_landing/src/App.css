@@ -1,0 +1,23 @@
+a {
+    color: #727e86;
+}
+
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Common Styles */
+
+
+.invisible {
+    opacity: 0;
+}
