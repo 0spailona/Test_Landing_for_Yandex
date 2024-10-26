@@ -1,0 +1,30 @@
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    padding: 0 72px 0 72px;
+}
+.card-text{
+    width: 754px;
+
+    font-style: normal;
+    //font-weight: 400;
+    font-size: 36px;
+    line-height: 135%;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    padding: 27px 0 27px 0;
+}
+
+.card-text-main{
+    font-weight: 400;
+    color: #313131;
+}
+.card-text-event{
+    font-weight: 600;
+    color: #F54932;
+}
+.card-img{
+    width: 394px;
+}

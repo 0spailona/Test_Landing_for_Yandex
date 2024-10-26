@@ -1,0 +1,37 @@
+.runningLine {
+    height: 60px;
+    background-color: #F54932;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.runningLine-content {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    text-align: right;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #FFFFFF;
+}
+
+.run-line-point {
+    height: 6px;
+    width: 6px;
+    background-image: url("../../../public/smallElipse.svg");
+    margin: 0 12px 0 12px;
+}
+
+@media(max-width: 768px) {
+    .runningLine {
+        height: 38px;
+    }
+    .runningLine-content {
+        font-size: 16px;
+    }
+}
