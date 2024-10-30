@@ -87,6 +87,13 @@ div{
   font-size: 18px;
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.card-text-main {
+  font-weight: 400;
+  color: #313131;
+}
 
-
+.card-text-event {
+  font-weight: 600;
+  color: #F54932;
 }

@@ -1,10 +1,10 @@
 @media screen and (min-width: 1366px) {
     .header{
         height: 70rem;
-        background-image: url("../../../../public/header-background.png");
+        background-image: url("../../../assets/header-background.png");
     }
     .header-img {
-        background-image: url("../../../../public/1920-2.png");
+        background-image: url("../../../assets/1920-2.png");
         background-position-x: center;
         background-repeat: no-repeat;
     }
@@ -13,7 +13,6 @@
         margin:auto;
     }
     .header-logo {
-        position: absolute;
         top: 2.6rem;
         width: 24.5rem;
         height: 3.6rem;

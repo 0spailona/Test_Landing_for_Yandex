@@ -1,0 +1,30 @@
+.cardWithTable-content{
+    border: 1px solid red;
+    margin-top:3.5rem;
+    padding: 0 7.2rem 0 4.6rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.cardWithTable-img-wrp{
+    width: 52.9rem;
+}
+.cardWithTable-img-wrp > img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.cardWithTable-info{
+    width: 70.4rem;
+    padding-top: 2.6rem;
+}
+.cardWithTable-title{
+    padding-right: 2.5rem;
+    border: 1px solid gold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 135%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}

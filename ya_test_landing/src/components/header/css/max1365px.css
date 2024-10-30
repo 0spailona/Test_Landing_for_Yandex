@@ -3,7 +3,7 @@
         height: 70rem;
     }
     .header-img {
-        background-image: url("../../../../public/1366.png");
+        background-image: url("../../../assets/1366.png");
         background-position: left;
     }
     .header-logo-and-content{
@@ -13,7 +13,6 @@
         margin: 0;
     }
     .header-logo {
-        position: absolute;
         top: 2.6rem;
         width: 24.5rem;
         height: 3.6rem;

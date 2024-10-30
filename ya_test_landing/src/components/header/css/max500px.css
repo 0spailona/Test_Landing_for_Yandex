@@ -3,11 +3,11 @@
         height: 77.4rem;
         width: 100%;
         min-width: 37.5rem;
-        background-image: url("../../../../public/header-background-375.png");
+        background-image: url("../../../assets/header-background.png");
         background-repeat: repeat;
     }
     .header-img {
-        background-image: url("../../../../public/375.png");
+        background-image: url("../../../assets/375.png");
         background-position: top;
     }
     .header-logo-and-content{
@@ -15,7 +15,7 @@
         width: 37.5rem;
         padding: 0 2rem;
         margin: auto;
-    border: 1px solid brown;
+    //border: 1px solid brown;
     }
     .header-logo {
         top: 1.8rem;
@@ -24,9 +24,6 @@
     }
     .header-content {
         top: 5rem;
-        //max-width: 33.5rem;
-        //min-width: 33.5rem;
-        //width: 33.5rem;
     }
     .header-title {
         padding-top: 4rem;
@@ -34,10 +31,5 @@
     }
     .header-text{
         text-align: left;
-    }
-    .header-btns {
-        flex-direction: column;
-        gap:1.4rem;
-        align-items: center;
     }
 }

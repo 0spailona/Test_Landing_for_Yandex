@@ -14,28 +14,27 @@
 
 @media (min-width: 1366px) {
     .main-container {
-        width: 1366px;
-        padding: 80px 0 80px 0;
+        width: 136.6rem;
+        padding: 8rem 0;
     }
 }
 
 @media (max-width: 1365px) {
     .main-container {
-        max-width: 1366px;
-        min-width: 769px;
-        padding: 80px 0 80px 0;
+        max-width: 136.6rem;
+        min-width: 76.9rem;
+        padding: 8rem 0;
     }
 }
 
 @media (max-width: 768px) {
     .main-container {
-        min-width: 375px;
-        padding: 47px 0 47px 0;
+        min-width: 37.5rem;
+        padding: 4.7rem 0;
     }
 }
 @media (max-width: 500px) {
     .main-container {
-        width: 375px;
-        padding: 47px 0 47px 0;
+        width: 37.5rem;
     }
 }
