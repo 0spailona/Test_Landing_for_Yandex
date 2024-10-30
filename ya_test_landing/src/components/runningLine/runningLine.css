@@ -1,9 +1,8 @@
 .runningLine {
-    height: 60px;
-    background-color: #F54932;
-    
     display: flex;
     justify-content: center;
+    height: 6rem;
+    background-color: #F54932;
 }
 
 .runningLine-content {
@@ -11,20 +10,19 @@
     align-items: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 2.2rem;
     line-height: 110%;
     text-align: right;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
-
     color: #FFFFFF;
 }
 
 .run-line-point {
     height: 6px;
     width: 6px;
-    background-image: url("../../../public/smallElipse.svg");
     margin: 0 12px 0 12px;
+    background-image: url("../../../public/smallElipse.svg");
 }
 
 @media(max-width: 768px) {

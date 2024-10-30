@@ -1,0 +1,33 @@
+@media screen and (max-width: 1365px){
+    .header{
+        height: 70rem;
+    }
+    .header-img {
+        background-image: url("../../../../public/1366.png");
+        background-position: left;
+    }
+    .header-logo-and-content{
+        max-width: 120rem;
+        min-width: 69rem;
+        padding: 0 7.2rem;
+        margin: 0;
+    }
+    .header-logo {
+        position: absolute;
+        top: 2.6rem;
+        width: 24.5rem;
+        height: 3.6rem;
+    }
+    .header-content {
+        position: absolute;
+        top: 6.2rem;
+        width: 54.2rem;
+    }
+    .header-title{
+        padding-top: 6.2rem;
+        font-size: calc(3.6rem + 1.75vw);
+    }
+    .header-text {
+        text-align: center;
+    }
+}

@@ -1,7 +1,7 @@
 import MyButton from "./button.jsx";
 
-export default function BlackButton({text}) {
+export default function BlackButton({text,event}) {
     return (
-        <MyButton text={text} mainColor="black" size="big"/>
+        <MyButton text={text} mainColor="black" size="big" event ={()=>event.call(this)}/>
     )
 }

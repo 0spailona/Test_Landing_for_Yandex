@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .header{
+        height: 70rem;
+    }
+    .header-img {
+        background-image: url("../../../../public/1366.png");
+        background-position: left;
+    }
+    .header-content{
+    //border: 1px solid black;
+        max-width: 54.2rem;
+        width: 75%;
+        min-width: 34.6rem;
+    }
+    .header-logo {
+        position: absolute;
+        top: 2.6rem;
+        width: 24.5rem;
+        height: 3.6rem;
+    }
+    .header-title{
+        padding-top: 6.2rem;
+        font-size: calc(3.6rem + 1.5vw);
+    }
+    .header-text {
+        text-align: center;
+    }
+    .header-btns {
+        flex-direction: column;
+        align-items: center;
+        gap:1.4rem;
+    }
+}
+@media screen and (max-width: 520px) {
+    .header-title{
+        padding-top: 4rem;
+    }
+}
+
