@@ -71,7 +71,10 @@ div{
 .upperCase{
   text-transform: uppercase;
 }
-
+.text-line-through{
+  text-decoration: line-through;
+  text-decoration-color: #F54932;
+}
 .text-align-right{
   text-align: right;
 }

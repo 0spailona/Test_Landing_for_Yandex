@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px) {
+    .cardWithTable-content{
+        max-width: 37.5rem;
+        flex-direction: column;
+        margin-top: 2.9rem;
+        padding: 0;
+    }
+
+    .cardWithTable-img-wrp{
+        width: 37.4rem;
+        position: relative;
+        right: 0.4rem;
+        margin-bottom: 2.4rem;
+    }
+    .cardWithTable-info{
+        width: 100%;
+        padding: 0 2.5rem 0 1.4rem;
+    }
+    .cardWithTable-title{
+        font-size: 2.8rem;
+    }
+}

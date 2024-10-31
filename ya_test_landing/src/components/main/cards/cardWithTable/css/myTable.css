@@ -1,0 +1,61 @@
+.cardWithTable-table {
+    display: flex;
+    margin: 1.5rem 0;
+    font-style: normal;
+
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+
+.table-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-data-name {
+    width: 30.5rem;
+}
+
+.column-data-text {
+    flex: 1;
+}
+
+.table-row {
+    height: 3.9rem;
+    border-bottom: 0.2rem solid #D0D0D0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.table-row:first-child {
+    padding-top: 0;
+}
+.table-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.table-row-name {
+    padding-right: 1.5rem;
+    font-weight: 400;
+    opacity: 0.7;
+    height: fit-content;
+}
+
+.table-row-text {
+    padding-left: 1.5rem;
+    border-left: 0.2rem solid #D0D0D0;
+    font-weight: 600;
+    font-size: 20px;
+    height: fit-content;
+}
+.cardWithTable-add-info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3057A2;
+}
