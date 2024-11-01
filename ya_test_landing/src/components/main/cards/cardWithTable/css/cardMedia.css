@@ -1,3 +1,67 @@
+@media screen and (min-width: 1366px){
+    .cardWithTable-content {
+        margin-top: 3.5rem;
+        padding: 0 7.2rem 0 4.6rem;
+    }
+
+    .cardWithTable-img-wrp {
+        width: 52.9rem;
+        margin-right: 1.6rem;
+    }
+
+    .cardWithTable-info {
+        width: 70.4rem;
+        padding: 2.6rem 0;
+    }
+
+    .cardWithTable-title {
+        padding-right: 2.5rem;
+        font-size: 3.6rem;
+    }
+    .cardWithTable-add-info{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width: 1365px){
+    .cardWithTable-content {
+        margin-top: 3.5rem;
+        padding: 0 7.2rem 0 4.6rem;
+    }
+
+    .cardWithTable-img-wrp {
+        max-width: 52.9rem;
+        min-width: 37.4rem;
+        margin-right: 1.6rem;
+    }
+
+    .cardWithTable-info {
+        width: 70.4rem;
+        padding: 2.6rem 0;
+    }
+
+    .cardWithTable-title {
+        padding-right: 2.5rem;
+        font-size: clamp(2.8rem,3vw,3.6rem);
+    }
+    .cardWithTable-add-info{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width: 1150px){
+    .cardWithTable-content{
+        flex-wrap: wrap;
+    }
+    .cardWithTable-img-wrp {
+        max-width: 37.4rem;
+    }
+    .cardWithTable-title {
+        max-width: 61.7rem;
+        flex:1;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .cardWithTable-content{
         max-width: 37.5rem;
@@ -11,12 +75,17 @@
         position: relative;
         right: 0.4rem;
         margin-bottom: 2.4rem;
+        margin-right: 0;
     }
     .cardWithTable-info{
         width: 100%;
         padding: 0 2.5rem 0 1.4rem;
     }
     .cardWithTable-title{
+        margin: 2.4rem 1.5rem 4.4rem 0;
         font-size: 2.8rem;
+    }
+    .cardWithTable-add-info{
+        font-size: 1.8rem;
     }
 }

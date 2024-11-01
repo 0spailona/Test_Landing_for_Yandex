@@ -1,3 +1,25 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1150px){
+    .cardWithTable-table{
+        margin-bottom: 4rem;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .table-row{
+        //display: flex;
+        flex-wrap: wrap;
+        //height: fit-content;
+        //border-bottom: 0.2rem solid #D0D0D0;
+        padding: 0.9rem 0;
+    }
+    .table-row-content{
+        //width: 30.5rem;
+        //width: fit-content;
+        height: fit-content;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+    .table-row-name{
+      padding-right: 1rem;
+    }
 }

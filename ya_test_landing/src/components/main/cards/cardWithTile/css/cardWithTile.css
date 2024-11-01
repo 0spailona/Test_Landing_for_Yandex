@@ -1,0 +1,54 @@
+.cardWithTile-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0 7.2rem;
+    margin-top: 20rem;
+}
+
+.cardWithTile-title {
+    max-width: 80.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5.4rem;
+}
+
+.cardWithTable-title-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.4rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+
+.cardWithTable-title-add {
+    align-self: center;
+    max-width: 28rem;
+    margin-left: 1.9rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3057A2;
+}
+
+.cardWithTile-tile{
+    display: flex;
+    gap: 2rem;
+    width: 122.2rem;
+    border: 1px solid blueviolet;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 39.4rem;
+    height: 12.2rem;
+    background-image: url("../../../../../assets/tile-background.png");
+}
+.tile:nth-child(3){
+    height: 24.4rem;
+}
