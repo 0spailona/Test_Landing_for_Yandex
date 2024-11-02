@@ -43,7 +43,7 @@
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(39.4rem, 1fr));
     //grid-template-rows: repeat(auto-fit, minmax(12.2rem, 1fr));
-
+    position: relative;
 
     //display: flex;
     //gap: 2rem;
@@ -59,15 +59,33 @@
     background-image: url("../../../../../assets/tile-background.png");
     //margin: 0;
     box-sizing: border-box;
+
 }
 .tile:nth-child(3){
     height: 24.4rem;
     grid-row: span 2;
     background-image: url("../../../../../assets/tile-background-3.png");
 }
+.tile:nth-child(6){
+    height: 13.6rem;
+}
 
 .tile:nth-child(7){
-    //height: 24.4rem;
+    height: 13.6rem;
     grid-column: span 2;
     background-image: url("../../../../../assets/tile-background-7.png");
+}
+.tile:nth-child(7) > .tile-content {
+
+}
+.cardWithTile-tile-img-wrp{
+    position: absolute;
+    //border: 1px solid blue;
+    width: 40rem;
+    bottom: 0;
+    right: -6.2rem;
+}
+.cardWithTile-tile-img-wrp > img{
+    width: 100%;
+    object-fit: contain;
 }

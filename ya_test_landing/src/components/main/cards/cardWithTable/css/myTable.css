@@ -26,23 +26,6 @@
     height: fit-content;
 }
 
-@media screen and (min-width: 501px){
-    .cardWithTable-table{
-        margin: 1.5rem 0;
-    }
-    .table-row-content{
-        width: 30.5rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
-    .table-row-content:nth-child(even){
-        border-left: 0.2rem solid #D0D0D0;
-        padding-left: 1.5rem;
-    }
-    .table-row-content:nth-child(odd){
-        padding-right: 1.5rem;
-    }
-}
 
 
 .table-row-name{
