@@ -1,0 +1,38 @@
+.tile-content{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.tile-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+   // padding: 0.6rem;
+//border: 0.2rem solid blue;
+
+}
+.tile-number > span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #313131;
+}
+
+.tile-text{
+    //max-width: 30.2rem;
+    //box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}

@@ -1,4 +1,5 @@
 import "./css/cardWithTile.css"
+import Tile from "./tile.jsx";
 
 export default function CardWithTile(){
     return (
@@ -10,6 +11,8 @@ export default function CardWithTile(){
                 <span className="cardWithTable-title-add fontSansSerif">Будущие источники обогащения васюкинцев</span>
             </div>
             <div className="cardWithTile-tile">
+                <div className="tile"><Tile number="1" text="Строительство железнодорожной магистрали Москва-Васюки" /></div>
+                <div className="tile"></div>
                 <div className="tile"></div>
                 <div className="tile"></div>
                 <div className="tile"></div>

@@ -37,18 +37,37 @@
 }
 
 .cardWithTile-tile{
-    display: flex;
-    gap: 2rem;
+    display: grid;
+    grid-auto-flow: dense;
+//grid-column-gap: 2rem;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(39.4rem, 1fr));
+    //grid-template-rows: repeat(auto-fit, minmax(12.2rem, 1fr));
+
+
+    //display: flex;
+    //gap: 2rem;
     width: 122.2rem;
     border: 1px solid blueviolet;
-    flex-wrap: wrap;
+   //flex-wrap: wrap;
 }
 
 .tile{
-    width: 39.4rem;
-    height: 12.2rem;
+    //width: 39.4rem;
+    padding: 2rem;
+    height: 11.2rem;
     background-image: url("../../../../../assets/tile-background.png");
+    //margin: 0;
+    box-sizing: border-box;
 }
 .tile:nth-child(3){
     height: 24.4rem;
+    grid-row: span 2;
+    background-image: url("../../../../../assets/tile-background-3.png");
+}
+
+.tile:nth-child(7){
+    //height: 24.4rem;
+    grid-column: span 2;
+    background-image: url("../../../../../assets/tile-background-7.png");
 }
