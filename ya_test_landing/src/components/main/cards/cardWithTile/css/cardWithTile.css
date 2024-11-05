@@ -27,6 +27,7 @@
 .cardWithTable-title-add {
     align-self: center;
     max-width: 28rem;
+    white-space: wrap;
     margin-left: 1.9rem;
     font-style: normal;
     font-weight: 400;
@@ -48,6 +49,8 @@
     //display: flex;
     //gap: 2rem;
     width: 122.2rem;
+
+    //width: 100%;
     border: 1px solid blueviolet;
    //flex-wrap: wrap;
 }

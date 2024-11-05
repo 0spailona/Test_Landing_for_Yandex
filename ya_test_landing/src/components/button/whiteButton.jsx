@@ -1,7 +1,7 @@
-import MyButton from "./button.jsx";
+import RectangularButton from "./rectangularButton.jsx";
 
 export default function WhiteButton({text,event}) {
     return (
-        <MyButton text={text} mainColor="white" size="big" event ={()=>event.call(this)}/>
+        <RectangularButton text={text} mainColor="white" event ={()=>event.call(this)}/>
     )
 }

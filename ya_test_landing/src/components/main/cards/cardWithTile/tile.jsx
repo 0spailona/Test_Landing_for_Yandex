@@ -1,4 +1,5 @@
 import "./css/tile.css"
+import "./css/tileMedia.css"
 
 export default function Tile({ number,text }) {
     return (

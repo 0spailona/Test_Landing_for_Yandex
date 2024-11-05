@@ -10,7 +10,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    //overflow: hidden;
+    overflow: hidden;
 }
 
 @media (min-width: 1366px) {

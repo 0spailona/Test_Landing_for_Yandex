@@ -1,6 +1,7 @@
 .tile-content{
     display: flex;
     gap: 1.6rem;
+    font-size: 2rem;
     //box-sizing: border-box;
     //max-width: 100%;
     //justify-content: space-between;
@@ -23,7 +24,7 @@
 .tile-number > span{
     font-style: normal;
     font-weight: 600;
-    font-size: 2rem;
+
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
 
@@ -36,7 +37,7 @@
     max-width: 44.6rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 2rem;
+
     line-height: 120%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #313131;

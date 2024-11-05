@@ -23,7 +23,7 @@
     color: #FFFFFF;
 }
 
-.big {
+.rectangularButton {
     display: flex;
     justify-content: center;
     width: 26.3rem;
@@ -45,21 +45,36 @@
     padding: 0 0.5rem;
 }
 
-.big > .btn-text {
+.rectangularButton > .btn-text {
     width: 16.5rem;
 }
+.roundBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    width: 4.4rem;
+    //min-width: 3.6rem;
+    padding: 0;
+    height: 4.4rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #313131;
+}
+.roundBtn:hover{
+    background-color: #FBCE51;
+}
 
-.small {
-
+.roundBtn:disabled{
+    background-color: #D6D6D6;
 }
 
 @media(max-width: 768px) {
-    .big {
+    .rectangularButton {
         width: 33.5rem;
         height: 4.7rem;
     }
-    .big > .btn-text {
+    .rectangularButton > .btn-text {
         width: 24.9rem;
     }
     .whiteBtn {
@@ -67,4 +82,9 @@
         border-color: rgba(255,255,255,0.9);
         color: #1F1F1F;
     }
+    .roundBtn{
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+
 }

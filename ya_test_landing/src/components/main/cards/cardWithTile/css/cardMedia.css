@@ -1,0 +1,108 @@
+@media screen and (max-width: 1366px){
+    .cardWithTile-tile{
+        display: grid;
+        grid-auto-flow: dense;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(39.4rem, 1fr));
+        position: relative;
+
+        //max-width: 122.2rem;
+        min-width: 33.5rem;
+        width: 100%;
+        border: 1px solid blueviolet;
+    //flex-wrap: wrap;
+    }
+
+    .cardWithTile-tile-img-wrp{
+        position: absolute;
+    //border: 1px solid blue;
+        max-width: 70rem;
+        min-width: 30rem;
+        width: 40%;
+        bottom: 0;
+        right: -6.2rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .cardWithTile-tile {
+        display: grid;
+        grid-auto-flow: dense;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(33.5rem, 1fr));
+        position: relative;
+
+    / / max-width: 122.2 rem;
+        min-width: 33.5rem;
+        width: 100%;
+        border: 1px solid blueviolet;
+    / / flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cardWithTile-tile {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 39.4rem;
+        min-width: 33.5rem;
+        //margin-bottom: 2rem;
+    }
+    .cardWithTile-tile-img-wrp{
+        width: 33.5rem;
+        height: 18.2rem;
+        top: 0;
+        right: 0;
+    }
+    .tile{
+        margin-top: 12.8rem;
+        height: 30rem;
+        padding: 6.2rem 2rem;
+
+        display: flex;
+        flex-direction: column;
+        //justify-content: space-between;
+        gap: 2.6rem;
+    }
+    .cardWithTile-tile-carousel{
+        display: flex;
+        align-self: center;
+        gap: 1.6rem;
+        align-items: center;
+    }
+    .cardWithTile-carousel{
+        display: flex;
+        gap:0.6rem;
+    }
+    .carousel-item{
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: #D9D9D9;
+    }
+
+    .carousel-item.active {
+        background-color: #313131;
+    }
+}
+@media screen and (max-width: 729px) {
+    .cardWithTile-container {
+        padding: 0 1.4rem;
+    }
+    .cardWithTile-title{
+        margin-bottom: 2rem;
+    }
+    .cardWithTable-title-text {
+        font-size: clamp(3.6rem, 0.5vw, 5.4rem);
+    }
+    .cardWithTable-title-add{
+        font-size: clamp(1.8rem, 0.5vw, 2rem);
+    }
+}
+@media screen and (max-width: 620px) {
+    .cardWithTable-title-add{
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 1.2rem;
+    }
+}
