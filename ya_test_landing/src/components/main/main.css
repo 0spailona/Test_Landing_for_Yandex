@@ -16,7 +16,7 @@
 @media (min-width: 1366px) {
     .main-container {
         width: 136.6rem;
-        padding: 8rem 0;
+        padding: 8rem 0 14.2rem 0;
     }
 }
 
@@ -37,5 +37,6 @@
 @media (max-width: 500px) {
     .main-container {
         width: 37.5rem;
+        padding-bottom: 11rem;
     }
 }

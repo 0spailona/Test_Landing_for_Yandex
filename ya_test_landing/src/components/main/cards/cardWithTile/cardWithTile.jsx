@@ -56,7 +56,7 @@ export default function CardWithTile() {
                 <MediaQuery minWidth={901}>
                     {tilesForDeskTop.map((tile, index) =>
                         <div className="tile" key={index}><Tile number={index + 1} text={tile}/></div>)}
-                    <div className="cardWithTile-tile-img-wrp"><img src={Image} alt=""/></div>
+                    <div key={-1} className="cardWithTile-tile-img-wrp"><img src={Image} alt=""/></div>
                 </MediaQuery>
                 <MediaQuery maxWidth={900}>
                     <div className="cardWithTile-tile-img-wrp"><img src={Image} alt=""/></div>

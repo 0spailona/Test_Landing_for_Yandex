@@ -1,0 +1,39 @@
+.participantCard-container{
+    padding: 0 3.7rem;
+    display: flex;
+    flex-direction: column;
+    gap:2.8rem;
+    align-items: center;
+
+    font-style: normal;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #313131;
+
+    //border: 1px solid #6e7ebc;
+}
+
+.participantCard-container > img{
+    width: 32rem;
+}
+
+.participantCard-container > .name{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.participantCard-container > .about{
+    font-weight: 400;
+    font-size: 2rem;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 500px) {
+    .participantCard-container{
+        padding: 0 2.4rem;
+    }
+    .participantCard-container > img{
+        width: 24.4rem;
+    }
+}
