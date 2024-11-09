@@ -24,13 +24,13 @@ export default function MyHeader({title, text}) {
                 <div className="header-logo-and-content">
                     <div className="header-logo"><a href="#"><img alt="Клуб четырех коней" src={Logo}/></a></div>
                     <div className="header-content">
-                        <div className="header-title fontSerif upperCase">
+                        <div className="header-title text font-w-regular fontSerif upperCase">
                             <div className="text-align-left">Превратите уездный город</div>
                             <div className="text-align-center">в{"\u00A0"}столицу</div>
                             <div className="text-align-right">земного шара</div>
                         </div>
-                        <div className="header-text ">
-                            <div className="small-text fontSansSerif">Оплатите взнос на{"\u00A0"}телеграммы для{"\u00A0"}организации Международного васюкинского турнира по{"\u00A0"}шахматам</div>
+                        <div className="header-text text-align-center text font-w-regular fontSansSerif">
+                           Оплатите взнос на{"\u00A0"}телеграммы для{"\u00A0"}организации Международного васюкинского турнира по{"\u00A0"}шахматам
                         </div>
                         <div className="header-btns">
                             <BlackButton text="Поддержать шахматную мысль" event={()=>toSupport()}/>

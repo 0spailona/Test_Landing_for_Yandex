@@ -1,0 +1,209 @@
+.fontSerif{
+    font-family: 'Merriweather','Times New Roman', serif;
+}
+
+.fontSansSerif{
+    font-family: 'Golos Text', Arial, sans-serif;
+}
+.upperCase{
+    text-transform: uppercase;
+}
+.text-line-through{
+    text-decoration: line-through;
+    text-decoration-color: #F54932;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: left;
+}
+
+.text{
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.font-w-regular{
+    font-weight: 400;
+}
+.font-w-medium{
+    font-weight: 500;
+}
+.font-w-semibold{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+.card-text-main {
+    font-weight: 400;
+    color: #313131;
+}
+
+.card-text-event {
+    font-weight: 600;
+    color: #F54932;
+}
+
+
+
+
+
+.btn-text {
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    white-space: pre-wrap;
+    vertical-align: top;
+    align-self: center;
+    padding: 0 0.5rem;
+}
+
+.footer-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+    opacity: 0.6;
+    white-space: wrap;
+    max-width: 122.2rem;
+}
+
+.header-title {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+
+.card-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: normal;
+    line-height: 135%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.cardWithSlideShow-carousel-pages{
+//border: 1px solid #6e7ebc;
+
+    padding: 0 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+
+.cardWithSlideShow-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.4rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+
+.participantCard-container{
+    padding: 0 3.7rem;
+    display: flex;
+    flex-direction: column;
+    gap:2.8rem;
+    align-items: center;
+
+    font-style: normal;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #313131;
+
+//border: 1px solid #6e7ebc;
+}
+
+.cardWithTable-title {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+.cardWithTable-add-info{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3057A2;
+}
+
+
+.cardWithTable-table{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+    width: 100%;
+}
+
+.cardWithTable-title-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.4rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+}
+
+.cardWithTable-title-add {
+    align-self: center;
+    max-width: 28rem;
+    white-space: wrap;
+    margin-left: 1.9rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3057A2;
+}
+
+.tile-number > span{
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #313131;
+}
+.tile-text{
+//max-width: 30.2rem;
+//box-sizing: border-box;
+    max-width: 44.6rem;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #313131;
+
+//border: 1px solid red;
+    white-space: wrap;
+}

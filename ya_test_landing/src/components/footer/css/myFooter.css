@@ -11,13 +11,11 @@
     border: 1px solid red;
 }
 .footer-text{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
     color: #313131;
     opacity: 0.6;
     white-space: wrap;
     max-width: 122.2rem;
 }
+

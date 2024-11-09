@@ -28,14 +28,6 @@
   scrollbar-width: none;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
 body {
   margin: 0;
@@ -43,13 +35,6 @@ body {
   min-height: 100vh;
 }
 
-.fontSerif{
-  font-family: 'Merriweather','Times New Roman', serif;
-}
-
-.fontSansSerif{
-  font-family: 'Golos Text', Arial, sans-serif;
-}
 
 a{
   text-decoration: none;
@@ -59,7 +44,7 @@ a:hover{
 }
 
 div{
-  //box-sizing: border-box;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1365px) {
 
@@ -71,35 +56,3 @@ div{
 
 }
 
-.upperCase{
-  text-transform: uppercase;
-}
-.text-line-through{
-  text-decoration: line-through;
-  text-decoration-color: #F54932;
-}
-.text-align-right{
-  text-align: right;
-}
-.text-align-center{
-  text-align: center;
-}
-.text-align-left{
-  text-align: left;
-}
-.small-text{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 130%;
-  font-feature-settings: 'pnum' on, 'lnum' on;
-}
-.card-text-main {
-  font-weight: 400;
-  color: #313131;
-}
-
-.card-text-event {
-  font-weight: 600;
-  color: #F54932;
-}
