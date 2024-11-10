@@ -1,19 +1,24 @@
 .btn {
     cursor: pointer;
 }
+.btn:hover {
+   border:none;
+}
 
 .blackBtn {
     background-color: #1F1F1F;
     color: #FFFFFF;
+    border: none;
 }
 
 .whiteBtn {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: transparent;//rgba(255, 255, 255, 0);
     color: #1F1F1F;
+    border-inline: 0.2rem solid black;
 }
 
 .blueBtn {
-    background-color: rgba(48, 87, 162, 0);
+    background-color: transparent;//rgba(48, 87, 162, 0);
     border-color: #3057A2;
     color: #3057A2;
 }
@@ -44,7 +49,7 @@
 .rectangular-btn.big {
     width: 26.3rem;
     height: 7.2rem;
-    border: 0.1rem solid black;
+
 }
 
 .rectangular-btn.small {
@@ -96,7 +101,7 @@
 
     .whiteBtn {
         background-color: rgba(255, 255, 255, 0.9);
-        border-color: rgba(255, 255, 255, 0.9);
+        border: none;
         color: #1F1F1F;
     }
 
