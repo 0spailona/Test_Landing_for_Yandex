@@ -6,15 +6,19 @@
 
 .card-text {
     display: flex;
-    flex-wrap: wrap;
     font-style: normal;
     line-height: 135%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+.card-text-main {
+    color: #313131;
+}
+
+.card-text-event {
+    color: #F54932;
+}
 
 .card-img-wrp{
-   //border: 1px solid chocolate;
     display: flex;
 }
 .card-img {

@@ -1,6 +1,6 @@
 @media screen and (max-width: 1366px){
     .tile-content{
-        font-size: clamp(1.8rem, 0.5vw, 2rem);
+        font-size: clamp(1.8rem, 1.5vw, 2rem);
     }
 
 }

@@ -1,0 +1,92 @@
+@media screen and (min-width: 951px) {
+    .cardWithSlideShow-container {
+        padding: 20rem 7.2rem 0 7.2rem;
+    }
+
+    .cardWithSlideShow-title {
+        margin-bottom: 6.5rem;
+        font-size: 5.4rem;
+    }
+
+    .cardWithSlideShow-carousel-pages {
+        padding: 0 1.3rem;
+        font-size: 1.6rem;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__slide-info {
+        top: -10.8rem;
+        right: 4.4rem;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__prev-btn,
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__next-btn {
+        top: -13rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__prev-btn {
+        right: 9.4rem;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__next-btn {
+        right: -0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .cardWithSlideShow-container {
+        padding: 20rem 7.2rem 10rem 7.2rem;
+    }
+
+    .cardWithSlideShow-title {
+        margin-bottom: 6.5rem;
+        font-size: 5.4rem;
+    }
+
+    .cardWithSlideShow-carousel-pages {
+        padding: 0 1.3rem;
+        font-size: 1.6rem;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__slide-info {
+        top: 568px;
+        left: calc(50% - 26px);
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__prev-btn,
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__next-btn {
+        top: 548px;
+        padding: 1rem 0.5rem;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__prev-btn {
+        left: calc(50% - 80px);
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__next-btn {
+        right: calc(50% - 80px);
+    }
+}
+
+@media screen and (max-width: 729px) {
+    .cardWithSlideShow-container {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+
+    .cardWithSlideShow-title {
+        font-size: clamp(3.6rem, 0.5vw, 5.4rem);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__slide-info {
+        top: 500px;
+    }
+
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__prev-btn,
+    .cardWithSlideShow-cards > .alice-carousel > .alice-carousel__next-btn {
+        top: 480px;
+    }
+}

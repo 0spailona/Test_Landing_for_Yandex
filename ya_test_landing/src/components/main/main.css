@@ -4,13 +4,12 @@
 }
 
 .main-container {
-    height: 100%;
-    border: 1px solid cyan;
-    margin: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    height: 100%;
+    margin: auto;
 }
 
 @media (min-width: 1366px) {

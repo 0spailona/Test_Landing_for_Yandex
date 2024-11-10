@@ -8,14 +8,16 @@
 }
 
 .whiteBtn {
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
     color: #1F1F1F;
 }
+
 .blueBtn {
-    background-color: rgba(48,87,162,0);
+    background-color: rgba(48, 87, 162, 0);
     border-color: #3057A2;
     color: #3057A2;
 }
+
 .blueBtn:hover {
     background-color: #3057A2;
     color: #FFFFFF;
@@ -32,69 +34,73 @@
     color: #FFFFFF;
 }
 
-.rectangular-btn{
+.rectangular-btn {
     display: flex;
     justify-content: center;
     border-radius: 6.6rem;
     font-size: 1.6rem;
 }
 
-.rectangular-btn.big{
+.rectangular-btn.big {
     width: 26.3rem;
     height: 7.2rem;
     border: 0.1rem solid black;
 }
 
-.rectangular-btn.small{
+.rectangular-btn.small {
     padding: 1.2rem;
 }
 
 .btn-text {
+    align-self: center;
+    padding: 0 0.5rem;
     line-height: 130%;
     white-space: pre-wrap;
     vertical-align: top;
-    align-self: center;
-    padding: 0 0.5rem;
 }
 
 .big-rectangular-btn > .btn-text {
     width: 16.5rem;
 }
-.roundBtn{
+
+.roundBtn {
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 4.4rem;
-    //min-width: 3.6rem;
     padding: 0;
     height: 4.4rem;
     border: none;
     border-radius: 50%;
     background-color: #313131;
 }
-.roundBtn:hover{
+
+.roundBtn:hover {
     background-color: #FBCE51;
 }
 
-.roundBtn:disabled{
+.roundBtn:disabled {
     background-color: #D6D6D6;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     .rectangular-btn.big {
         width: 33.5rem;
         height: 4.7rem;
     }
+
     .rectangular-btn.big > .btn-text {
         width: 24.9rem;
     }
+
     .whiteBtn {
-        background-color: rgba(255,255,255,0.9);
-        border-color: rgba(255,255,255,0.9);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-color: rgba(255, 255, 255, 0.9);
         color: #1F1F1F;
     }
-    .roundBtn{
+
+    .roundBtn {
         width: 3.6rem;
         height: 3.6rem;
     }

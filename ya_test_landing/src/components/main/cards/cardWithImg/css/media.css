@@ -18,7 +18,6 @@
 @media (max-width: 1365px) {
     .card-content {
         padding: 0 7.2rem;
-    //border: 1px solid red;
     }
     .card-text-wrp {
         width: 75.4rem;
@@ -42,10 +41,11 @@
     }
     .card-img-wrp {
         align-self: center;
-        max-width: 39.4rem;
-        min-width: 33.6rem;
         padding-left: 0;
         margin: 2.4rem 0;
+    }
+    .card-text {
+        flex-wrap: wrap;
     }
 }
 
@@ -55,20 +55,17 @@
     }
 
     .card-column {
-        //max-width: 33.6rem;
         width:  33.6rem;
     }
 
     .card-text {
         padding-left: 0.1rem;
-        font-size: 2.8rem;
         margin-right: 1.5rem;
-        border: 1px solid firebrick;
+        font-size: 2.8rem;
     }
 
     .card-img-wrp {
         width: 33.5rem;
         height: 21.3rem;
-    //margin: 2.4rem 0;
     }
 }

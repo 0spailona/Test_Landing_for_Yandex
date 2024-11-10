@@ -1,21 +1,18 @@
 .footer {
     width: 100%;
     background-color: #E9DED4;
-    //padding: 4rem 7.2rem;
 }
 .footer-content{
     max-width: 136.6rem;
-    box-sizing: border-box;
     margin: auto;
     padding: 4rem 7.2rem;
-    border: 1px solid red;
 }
 .footer-text{
-    font-size: 16px;
+    max-width: 122.2rem;
+    font-size: 1.6rem;
     line-height: 120%;
     color: #313131;
     opacity: 0.6;
     white-space: wrap;
-    max-width: 122.2rem;
 }
 

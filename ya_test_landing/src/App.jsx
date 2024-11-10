@@ -1,5 +1,3 @@
-import {useState} from "react";
-//import "./App.css";
 import "./textStyle.css"
 import MyHeader from "./components/header/header.jsx";
 import RunningLine from "./components/runningLine/runningLine.jsx";
@@ -7,7 +5,6 @@ import MainBlock from "./components/main/mainBlock.jsx";
 import MyFooter from "./components/footer/myFooter.jsx";
 
 function App() {
-    const [count, setCount] = useState(0);
 
     return (
         <>

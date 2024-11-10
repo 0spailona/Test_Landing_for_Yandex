@@ -1,5 +1,4 @@
 .cardWithTable-content {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -15,23 +14,18 @@
 }
 
 .cardWithTable-info {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .cardWithTable-title {
-    font-style: normal;
-    font-weight: 400;
     line-height: 135%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
     color: #313131;
 }
-.cardWithTable-add-info{
-    font-style: normal;
-    font-weight: 400;
+
+.cardWithTable-add-info {
     line-height: 120%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
     color: #3057A2;
 }

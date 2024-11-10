@@ -9,10 +9,10 @@ export default function ParticipantCard({imgUrl, name, about}) {
     };
 
     return (
-        <div className="participantCard-container">
+        <div className="participantCard-container text">
             <img src={imgUrl ? imgUrl : Image} alt="participantCard"/>
-            <div className="name fontSansSerif">{name}</div>
-            <div className="about fontSansSerif">{about}</div>
+            <div className="name fontSansSerif font-w-semibold">{name}</div>
+            <div className="about fontSansSerif font-w-regular">{about}</div>
             <SmallBtn event={() => getMoreInformation()} text="Подробнее"/>
         </div>
     );

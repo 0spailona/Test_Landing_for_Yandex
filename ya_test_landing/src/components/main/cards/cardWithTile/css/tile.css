@@ -2,9 +2,6 @@
     display: flex;
     gap: 1.6rem;
     font-size: 2rem;
-    //box-sizing: border-box;
-    //max-width: 100%;
-    //justify-content: space-between;
 }
 
 .tile-number{
@@ -17,31 +14,21 @@
     height: 3.6rem;
     border-radius: 50%;
     background-color: #FFFFFF;
-   // padding: 0.6rem;
-//border: 0.2rem solid blue;
-
 }
 .tile-number > span{
-    font-style: normal;
     font-weight: 600;
 
     line-height: 120%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
 
     color: #313131;
 }
 
 .tile-text{
-    //max-width: 30.2rem;
-    //box-sizing: border-box;
     max-width: 44.6rem;
-    font-style: normal;
     font-weight: 500;
 
     line-height: 120%;
-    font-feature-settings: 'pnum' on, 'lnum' on;
     color: #313131;
 
-    //border: 1px solid red;
     white-space: wrap;
 }
